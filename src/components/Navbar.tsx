@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from "react";
-import { Phone } from "lucide-react";
+import { Phone, Droplets } from "lucide-react";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -29,11 +29,14 @@ const Navbar = () => {
     >
       <div className="container-padding mx-auto">
         <div className="flex items-center justify-between">
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-2">
             <a href="/" className="flex items-center">
-              <span className="text-blue-800 font-heading font-bold text-xl md:text-2xl">
-                MADRID IMPERMEABILIZA
-              </span>
+              <div className="bg-gradient-to-r from-blue-700 to-blue-500 text-white p-2 rounded-lg shadow-lg flex items-center">
+                <Droplets size={24} className="mr-1" />
+                <span className="font-heading font-bold text-xl md:text-2xl tracking-tight">
+                  GLOTEBER
+                </span>
+              </div>
             </a>
           </div>
 
