@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Phone, Mail, MapPin } from "lucide-react";
+import { Phone, Mail, MapPin, Clock } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -22,10 +22,19 @@ const Contact = () => {
                   <Phone className="text-blue-600 w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="font-medium text-slate-800 mb-1">Teléfono</h4>
-                  <a href="tel:+34666777888" className="text-slate-600 hover:text-blue-600 transition-colors">
-                    666 777 888
-                  </a>
+                  <h4 className="font-medium text-slate-800 mb-1">Teléfonos</h4>
+                  <div className="space-y-1">
+                    <div>
+                      <a href="tel:+34637311310" className="text-slate-600 hover:text-blue-600 transition-colors">
+                        637 311 310 (Teodoro)
+                      </a>
+                    </div>
+                    <div>
+                      <a href="tel:+34916882938" className="text-slate-600 hover:text-blue-600 transition-colors">
+                        91 688 29 38 (Fijo)
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
               
@@ -35,8 +44,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-medium text-slate-800 mb-1">Email</h4>
-                  <a href="mailto:info@madridimpermeabiliza.com" className="text-slate-600 hover:text-blue-600 transition-colors">
-                    info@madridimpermeabiliza.com
+                  <a href="mailto:gloteber@gmail.com" className="text-slate-600 hover:text-blue-600 transition-colors">
+                    gloteber@gmail.com
                   </a>
                 </div>
               </div>
@@ -48,9 +57,22 @@ const Contact = () => {
                 <div>
                   <h4 className="font-medium text-slate-800 mb-1">Dirección</h4>
                   <p className="text-slate-600">
-                    Calle Ejemplo, 123<br />
-                    28912 Leganés, Madrid
+                    C. Salvaleón, 6, local 1A<br />
+                    28918 Leganés, Madrid
                   </p>
+                </div>
+              </div>
+
+              <div className="flex items-start">
+                <div className="bg-blue-100 p-3 rounded-full mr-4">
+                  <Clock className="text-blue-600 w-5 h-5" />
+                </div>
+                <div>
+                  <h4 className="font-medium text-slate-800 mb-1">Horarios</h4>
+                  <div className="text-slate-600 space-y-1">
+                    <p>Invierno: 8:30 - 18:00</p>
+                    <p>Verano: 7:00 - 15:00</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -68,7 +90,7 @@ const Contact = () => {
                 ))}
               </div>
               <a
-                href="https://wa.me/34666777888"
+                href="https://wa.me/34637311310"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-6 flex items-center justify-center w-full bg-green-500 hover:bg-green-600 text-white py-3 px-4 rounded-lg transition-colors"
@@ -124,7 +146,7 @@ const Contact = () => {
                       id="phone"
                       name="phone"
                       className="w-full px-4 py-2 border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                      placeholder="666 777 888"
+                      placeholder="637 311 310"
                       required
                     />
                   </div>
@@ -188,14 +210,14 @@ const Contact = () => {
             {/* Google Maps Embed */}
             <div className="mt-8 rounded-lg overflow-hidden shadow-md h-72">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48626.55122891504!2d-3.8096328442906303!3d40.32923232618541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd418a5a8c404735%3A0x7462e25ee46c5571!2zTGVnYW7DqXMsIE1hZHJpZA!5e0!3m2!1ses!2ses!4v1658339711364!5m2!1ses!2ses"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3043.8!2d-3.76!3d40.32!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDE5JzEyLjAiTiAzwrA0NSczNi4wIlc!5e0!3m2!1ses!2ses!4v1234567890"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Ubicación de Madrid Impermeabiliza"
+                title="Ubicación de Gloteber Impermeabilización"
               ></iframe>
             </div>
           </div>

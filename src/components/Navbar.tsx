@@ -85,11 +85,11 @@ const Navbar = () => {
               </li>
             </ul>
             <a
-              href="tel:+34666777888"
+              href="tel:+34637311310"
               className="flex items-center text-blue-800 font-semibold"
             >
               <Phone size={18} className="mr-2" />
-              <span>666 777 888</span>
+              <span>637 311 310</span>
             </a>
           </div>
 
@@ -177,11 +177,11 @@ const Navbar = () => {
               </li>
             </ul>
             <a
-              href="tel:+34666777888"
+              href="tel:+34637311310"
               className="flex items-center mt-4 text-blue-800 font-semibold"
             >
               <Phone size={18} className="mr-2" />
-              <span>666 777 888</span>
+              <span>637 311 310</span>
             </a>
           </div>
         )}
