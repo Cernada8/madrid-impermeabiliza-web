@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Card, CardContent } from "./ui/card";
 import { AspectRatio } from "./ui/aspect-ratio";
@@ -24,56 +23,56 @@ const projectImages = [
     category: 'terrazas',
     title: 'Impermeabilización de terraza comunitaria en Leganés',
     description: 'Renovación completa con sistema de doble capa',
-    image: './lovable-uploads/91e92983-6259-4242-8242-aa587955a87e.png'
+    image: 'https://images.unsplash.com/photo-1527576539890-dfa815648363?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
   },
   {
     id: 2,
     category: 'tejados',
     title: 'Rehabilitación de cubierta en Madrid centro',
     description: 'Tratamiento integral con tela asfáltica de alta durabilidad',
-    image: './lovable-uploads/cd493812-9832-4b2c-b50c-232872ae8e1d.png'
+    image: 'https://images.unsplash.com/photo-1488972685288-c3fd157d7c7a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
   },
   {
     id: 3,
     category: 'terrazas',
     title: 'Impermeabilización de terraza en Getafe',
     description: 'Sistema especializado con acabado transitable',
-    image: './lovable-uploads/b003b0b7-704a-4e70-8138-fe61dcbcc04c.png'
+    image: 'https://images.unsplash.com/photo-1518005020951-eccb494ad742?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
   },
   {
     id: 4,
     category: 'industriales',
     title: 'Proyecto industrial en Móstoles',
     description: 'Impermeabilización de cubierta industrial de gran superficie',
-    image: './lovable-uploads/5c07b49e-a86e-400a-9276-f33eba406bb3.png'
+    image: 'https://images.unsplash.com/photo-1496307653780-42ee777d4833?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
   },
   {
     id: 5,
     category: 'terrazas',
     title: 'Tratamiento de terraza en Alcorcón',
     description: 'Solución integral con sistema multicapa',
-    image: './lovable-uploads/ccd04247-039a-4139-b6cb-92be74cfc4fa.png'
+    image: 'https://images.unsplash.com/photo-1431576901776-e539bd916ba2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
   },
   {
     id: 6,
     category: 'industriales',
     title: 'Complejo empresarial en Leganés',
     description: 'Impermeabilización de edificio comercial',
-    image: './lovable-uploads/8706737a-c7e2-45a3-a60d-4b506ae91d41.png'
+    image: 'https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
   },
   {
     id: 7,
     category: 'tejados',
     title: 'Rehabilitación de cubierta residencial',
     description: 'Instalación de nueva membrana impermeabilizante',
-    image: './lovable-uploads/95a8f506-3245-4c90-b7be-84f1e0b821bc.png'
+    image: 'https://images.unsplash.com/photo-1459767129954-1b1c1f9b9ace?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
   },
   {
     id: 8,
     category: 'terrazas',
     title: 'Terraza comunitaria en Madrid',
     description: 'Renovación con sistema antifiltración',
-    image: './lovable-uploads/3637daa5-03aa-40d6-8b4b-d2d1fee62407.png'
+    image: 'https://images.unsplash.com/photo-1460574283810-2aab119d8511?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
   }
 ];
 
