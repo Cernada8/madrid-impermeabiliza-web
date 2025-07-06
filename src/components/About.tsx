@@ -11,7 +11,7 @@ const About = () => {
               Sobre nosotros
             </h2>
             <p className="text-slate-600 mb-6">
-              Con más de 15 años de experiencia en el sector, Madrid Impermeabiliza 
+              Con más de 15 años de experiencia en el sector, GLOTEBER IMPERMEABILIZACIÓN S.L 
               se ha convertido en un referente en servicios de impermeabilización en 
               toda la Comunidad de Madrid.
             </p>
@@ -49,8 +49,8 @@ const About = () => {
           </div>
           <div className="relative">
             <img
-              src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&q=80&w=800"
-              alt="Equipo de Madrid Impermeabiliza"
+              src="/lovable-uploads/2a8d589d-f16c-4d78-a6d9-72d42068288c.png"
+              alt="Trabajo de impermeabilización realizado por GLOTEBER"
               className="w-full h-auto rounded-lg shadow-xl"
             />
             <div className="absolute -bottom-6 -left-6 bg-blue-600 p-6 rounded-lg shadow-lg max-w-xs">

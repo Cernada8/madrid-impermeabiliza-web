@@ -6,31 +6,31 @@ const servicesList = [
     title: "Impermeabilización de tejados",
     description:
       "Protegemos y sellamos tu tejado para evitar filtraciones de agua, aumentando su vida útil y previniendo daños estructurales.",
-    icon: "https://images.unsplash.com/photo-1439337153520-7082a56a81f4?auto=format&fit=crop&q=80&w=800",
+    icon: "/lovable-uploads/6bf59fe9-c773-44c2-a4f9-c650ad0b71f4.png",
   },
   {
     title: "Sellado de terrazas y balcones",
     description:
       "Aplicamos tratamientos especializados para evitar humedades y filtraciones en terrazas y balcones, manteniendo su estética.",
-    icon: "https://images.unsplash.com/photo-1493397212122-2b85dda8106b?auto=format&fit=crop&q=80&w=800",
+    icon: "/lovable-uploads/c13a337e-558b-46c8-b51a-659a69199f1e.png",
   },
   {
     title: "Impermeabilización de sótanos",
     description:
       "Soluciones efectivas contra humedades en sótanos y garajes, aplicando técnicas avanzadas para eliminar problemas de agua.",
-    icon: "https://images.unsplash.com/photo-1551038247-3d9af20df552?auto=format&fit=crop&q=80&w=800",
+    icon: "/lovable-uploads/69b1818f-d47a-46e5-823c-69088cd3d424.png",
   },
   {
     title: "Protección de fachadas",
     description:
       "Tratamientos hidrofugantes que protegen tus fachadas de la lluvia y la humedad sin alterar su transpirabilidad.",
-    icon: "https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&q=80&w=800",
+    icon: "/lovable-uploads/c9eadf29-b070-489a-af97-6fe744ff5b75.png",
   },
   {
     title: "Impermeabilización industrial",
     description:
       "Soluciones a medida para grandes superficies industriales, garantizando la continuidad de la actividad empresarial.",
-    icon: "https://images.unsplash.com/photo-1496307653780-42ee777d4833?auto=format&fit=crop&q=80&w=800",
+    icon: "/lovable-uploads/cd7990f7-ff64-4513-9bb0-cfb72512311e.png",
   },
 ];
 

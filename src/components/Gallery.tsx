@@ -1,13 +1,7 @@
+
 import React, { useState } from 'react';
 import { Card, CardContent } from "./ui/card";
 import { AspectRatio } from "./ui/aspect-ratio";
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "./ui/carousel";
 import { Button } from "./ui/button";
 
 const projectCategories = [
@@ -21,58 +15,72 @@ const projectImages = [
   {
     id: 1,
     category: 'terrazas',
-    title: 'Impermeabilización de terraza comunitaria en Leganés',
-    description: 'Renovación completa con sistema de doble capa',
-    image: 'https://images.unsplash.com/photo-1527576539890-dfa815648363?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    title: 'Impermeabilización de terraza comunitaria',
+    description: '',
+    image: '/lovable-uploads/c13a337e-558b-46c8-b51a-659a69199f1e.png'
   },
   {
     id: 2,
     category: 'tejados',
-    title: 'Rehabilitación de cubierta en Madrid centro',
-    description: 'Tratamiento integral con tela asfáltica de alta durabilidad',
-    image: 'https://images.unsplash.com/photo-1488972685288-c3fd157d7c7a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    title: 'Rehabilitación de cubierta',
+    description: '',
+    image: '/lovable-uploads/6bf59fe9-c773-44c2-a4f9-c650ad0b71f4.png'
   },
   {
     id: 3,
-    category: 'terrazas',
-    title: 'Impermeabilización de terraza en Getafe',
-    description: 'Sistema especializado con acabado transitable',
-    image: 'https://images.unsplash.com/photo-1518005020951-eccb494ad742?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    category: 'tejados',
+    title: 'Impermeabilización de tejado',
+    description: '',
+    image: '/lovable-uploads/2a8d589d-f16c-4d78-a6d9-72d42068288c.png'
   },
   {
     id: 4,
-    category: 'industriales',
-    title: 'Proyecto industrial en Móstoles',
-    description: 'Impermeabilización de cubierta industrial de gran superficie',
-    image: 'https://images.unsplash.com/photo-1496307653780-42ee777d4833?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    category: 'tejados',
+    title: 'Proyecto de cubierta residencial',
+    description: '',
+    image: '/lovable-uploads/a2411277-fc89-4dd7-babc-0e514b4bbe4b.png'
   },
   {
     id: 5,
-    category: 'terrazas',
-    title: 'Tratamiento de terraza en Alcorcón',
-    description: 'Solución integral con sistema multicapa',
-    image: 'https://images.unsplash.com/photo-1431576901776-e539bd916ba2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    category: 'tejados',
+    title: 'Impermeabilización de cubierta',
+    description: '',
+    image: '/lovable-uploads/c9eadf29-b070-489a-af97-6fe744ff5b75.png'
   },
   {
     id: 6,
     category: 'industriales',
-    title: 'Complejo empresarial en Leganés',
-    description: 'Impermeabilización de edificio comercial',
-    image: 'https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    title: 'Proyecto industrial',
+    description: '',
+    image: '/lovable-uploads/63dcf9e5-1c9c-4004-8b9c-033f831dd34f.png'
   },
   {
     id: 7,
-    category: 'tejados',
-    title: 'Rehabilitación de cubierta residencial',
-    description: 'Instalación de nueva membrana impermeabilizante',
-    image: 'https://images.unsplash.com/photo-1459767129954-1b1c1f9b9ace?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    category: 'industriales',
+    title: 'Impermeabilización industrial',
+    description: '',
+    image: '/lovable-uploads/2cebf49f-2b23-45b3-a7cf-efc55714b7e3.png'
   },
   {
     id: 8,
-    category: 'terrazas',
-    title: 'Terraza comunitaria en Madrid',
-    description: 'Renovación con sistema antifiltración',
-    image: 'https://images.unsplash.com/photo-1460574283810-2aab119d8511?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    category: 'tejados',
+    title: 'Cubierta impermeabilizada',
+    description: '',
+    image: '/lovable-uploads/69b1818f-d47a-46e5-823c-69088cd3d424.png'
+  },
+  {
+    id: 9,
+    category: 'industriales',
+    title: 'Proyecto de gran superficie',
+    description: '',
+    image: '/lovable-uploads/955a807a-c53d-4204-91db-688d017c5492.png'
+  },
+  {
+    id: 10,
+    category: 'industriales',
+    title: 'Complejo empresarial',
+    description: '',
+    image: '/lovable-uploads/cd7990f7-ff64-4513-9bb0-cfb72512311e.png'
   }
 ];
 
@@ -121,7 +129,6 @@ const Gallery = () => {
               </AspectRatio>
               <CardContent className="p-4">
                 <h3 className="font-semibold text-lg mb-2">{project.title}</h3>
-                <p className="text-slate-600 text-sm">{project.description}</p>
               </CardContent>
             </Card>
           ))}
